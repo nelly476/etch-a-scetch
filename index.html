@@ -8,12 +8,14 @@
   </head>
   <body>
     <form>
-      <div class="changeSize">
-        <label for="number">Change the size</label>
-    <input  type="number" id="number" max="100" min="1"></input>
-    <input id="btn" type="submit" value="Apply">
-  </div>
-</form>
-    <div id="container"></div>
+      <input
+        type="button"
+        id="button"
+        onclick="createTable()"
+        value="Change the size"
+      />
+    </form>
+    <table id="table" border="1"></table>
+    <table id="newTable" border="1"></table>
   </body>
 </html>
